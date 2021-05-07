@@ -125,7 +125,7 @@ function pullRequestOpenedFixture({ ref }: { ref: string }) {
   return {
     pull_request: {
       number: 1,
-      head: {
+      base: {
         ref
       }
     },
